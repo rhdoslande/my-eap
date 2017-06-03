@@ -1,0 +1,120 @@
+[Server:Server11] 19:04:55,104 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (
+WildFly Core 2.1.2.Final-redhat-1) started in 9829ms - Started 553 of 836 services (469 services are lazy, pas
+sive or on-demand)
+
+
+...
+
+
+[Server:Server11] 19:05:37,142 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-4,ee
+,host1:Server11) ISPN000094: Received new cluster view for channel server: [host1:Server11|1] (2) [host1:Serve
+r11, host2:Server21]
+[Server:Server11] 19:05:37,142 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-4,ee
+,host1:Server11) ISPN000094: Received new cluster view for channel web: [host1:Server11|1] (2) [host1:Server11
+, host2:Server21]
+[Server:Server11] 19:05:37,142 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-4,ee
+,host1:Server11) ISPN000094: Received new cluster view for channel ejb: [host1:Server11|1] (2) [host1:Server11
+, host2:Server21]
+[Server:Server11] 19:05:37,142 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-4,ee
+,host1:Server11) ISPN000094: Received new cluster view for channel hibernate: [host1:Server11|1] (2) [host1:Se
+rver11, host2:Server21]
+[Server:Server11] 19:05:38,079 INFO  [org.infinispan.CLUSTER] (remote-thread--p9-t1) ISPN000310: Starting clus
+ter-wide rebalance for cache routing, topology CacheTopology{id=1, rebalanceId=1, currentCH=DefaultConsistentH
+ash{ns=80, owners = (1)[host1:Server11: 80+0]}, pendingCH=DefaultConsistentHash{ns=80, owners = (2)[host1:Serv
+er11: 40+40, host2:Server21: 40+40]}, unionCH=null, actualMembers=[host1:Server11, host2:Server21]}
+[Server:Server11] 19:05:38,110 INFO  [org.infinispan.CLUSTER] (remote-thread--p9-t1) ISPN000310: Starting clus
+ter-wide rebalance for cache node-info.war, topology CacheTopology{id=1, rebalanceId=1, currentCH=DefaultConsi
+stentHash{ns=80, owners = (1)[host1:Server11: 80+0]}, pendingCH=DefaultConsistentHash{ns=80, owners = (2)[host
+1:Server11: 40+40, host2:Server21: 40+40]}, unionCH=null, actualMembers=[host1:Server11, host2:Server21]}
+[Server:Server11] 19:05:38,563 INFO  [org.infinispan.CLUSTER] (remote-thread--p9-t1) ISPN000336: Finished clus
+ter-wide rebalance for cache routing, topology id = 1
+[Server:Server11] 19:05:38,563 WARN  [org.apache.activemq.artemis.core.server] (Thread-28 (ActiveMQ-server-org
+.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@3b4e889b-1135859380)) AMQ222186: unable to auth
+orise cluster control
+[Server:Server11] 19:05:38,563 INFO  [org.infinispan.CLUSTER] (remote-thread--p9-t2) ISPN000336: Finished clus
+ter-wide rebalance for cache node-info.war, topology id = 1
+[Server:Server11] 19:05:38,563 WARN  [org.apache.activemq.artemis.core.server] (Thread-4 (ActiveMQ-server-org.
+apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@3b4e889b-1135859380)) AMQ222186: unable to autho
+rise cluster control
+
+[Server:Server11] 19:05:38,609 ERROR [org.apache.activemq.artemis.core.server] (Thread-2 (ActiveMQ-client-nett
+y-threads-584167327)) AMQ224058: Stopping ClusterManager. As it failed to authenticate with the cluster: AMQ11
+9099: Unable to authenticate cluster user: ACTIVEMQ.CLUSTER.ADMIN.USER
+
+[Server:Server11] 19:05:38,656 INFO  [org.apache.activemq.artemis.core.server] (Thread-11 (ActiveMQ-server-org
+.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@3b4e889b-1135859380)) AMQ221029: stopped bridge
+ sf.my-cluster.93e65230-4302-11e7-bf2f-bd9d45aefbf0
+
+
+[Server:Server11] 19:05:38,656 ERROR [org.apache.activemq.artemis.core.client] (Thread-4 (ActiveMQ-server-org.
+apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@3b4e889b-1135859380)) AMQ214017: Caught unexpect
+ed Throwable: java.lang.NullPointerException
+[Server:Server11]       at org.apache.activemq.artemis.core.server.cluster.ClusterControl.authorize(ClusterCon
+trol.java:76)
+[Server:Server11]       at org.apache.activemq.artemis.core.server.cluster.impl.ClusterConnectionImpl.onConnec
+tion(ClusterConnectionImpl.java:491)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection
+(ClientSessionFactoryImpl.java:894)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection
+WithRetry(ClientSessionFactoryImpl.java:773)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connect(Clien
+tSessionFactoryImpl.java:242)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory
+(ServerLocatorImpl.java:757)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.connect(ServerLocato
+rImpl.java:614)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.connect(ServerLocato
+rImpl.java:595)
+[Server:Server11]       at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl$5.run(ServerLocatorI
+mpl.java:1453)
+[Server:Server11]       at org.apache.activemq.artemis.utils.OrderedExecutorFactory$OrderedExecutor$ExecutorTa
+sk.run(OrderedExecutorFactory.java:100)
+[Server:Server11]       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[Server:Server11]       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[Server:Server11]       at java.lang.Thread.run(Thread.java:748)
+[Server:Server11]
+
+
+[Server:Server11] 19:05:38,672 ERROR [org.apache.activemq.artemis.core.server] (default I/O-4) AMQ224018: Fail
+ed to create session: ActiveMQClusterSecurityException[errorType=CLUSTER_SECURITY_EXCEPTION message=AMQ119099:
+ Unable to authenticate cluster user: ACTIVEMQ.CLUSTER.ADMIN.USER]
+[Server:Server11]       at org.apache.activemq.artemis.core.security.impl.SecurityStoreImpl.authenticate(Secur
+ityStoreImpl.java:116)
+[Server:Server11]       at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.createSession(Activ
+eMQServerImpl.java:985)
+[Server:Server11]       at org.apache.activemq.artemis.core.protocol.core.impl.ActiveMQPacketHandler.handleCre
+ateSession(ActiveMQPacketHandler.java:150)
+[Server:Server11]       at org.apache.activemq.artemis.core.protocol.core.impl.ActiveMQPacketHandler.handlePac
+ket(ActiveMQPacketHandler.java:76)
+[Server:Server11]       at org.apache.activemq.artemis.core.protocol.core.impl.ChannelImpl.handlePacket(Channe
+lImpl.java:626)
+[Server:Server11]       at org.apache.activemq.artemis.core.protocol.core.impl.RemotingConnectionImpl.doBuffer
+Received(RemotingConnectionImpl.java:349)
+[Server:Server11]       at org.apache.activemq.artemis.core.protocol.core.impl.RemotingConnectionImpl.bufferRe
+ceived(RemotingConnectionImpl.java:331)
+[Server:Server11]       at org.apache.activemq.artemis.core.remoting.server.impl.RemotingServiceImpl$Delegatin
+gBufferHandler.bufferReceived(RemotingServiceImpl.java:616)
+[Server:Server11]       at org.apache.activemq.artemis.core.remoting.impl.netty.ActiveMQChannelHandler.channel
+Read(ActiveMQChannelHandler.java:68)
+[Server:Server11]       at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHan
+dlerContext.java:308)
+[Server:Server11]       at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandl
+erContext.java:294)
+[Server:Server11]       at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:2
+65)
+[Server:Server11]       at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHan
+dlerContext.java:308)
+[Server:Server11]       at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandl
+erContext.java:294)
+[Server:Server11]       at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java
+:846)
+[Server:Server11]       at org.xnio.netty.transport.AbstractXnioSocketChannel$ReadListener.handleEvent(Abstrac
+tXnioSocketChannel.java:435)
+[Server:Server11]       at org.xnio.netty.transport.AbstractXnioSocketChannel$ReadListener.handleEvent(Abstrac
+tXnioSocketChannel.java:371)
+[Server:Server11]       at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+[Server:Server11]       at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandle
+r.java:66)
+[Server:Server11]       at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:88)
+[Server:Server11]       at org.xnio.nio.WorkerThread.run(WorkerThread.java:559)
+[Server:Server11]

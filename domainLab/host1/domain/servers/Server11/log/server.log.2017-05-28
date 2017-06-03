@@ -1,0 +1,559 @@
+2017-05-28 12:40:38,319 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-05-28 12:40:38,501 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-05-28 12:40:38,574 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-05-28 12:40:38,577 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Server:Server11] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\apps\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_131\jre
+	java.io.tmpdir = C:\Users\doslande\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Gow\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\apps\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.domain.base.dir = C:\work\my_eap\domainLab\host1\domain
+	jboss.domain.config.dir = C:\work\my_eap\domainLab\host1\domain\configuration
+	jboss.home.dir = C:\apps\jboss-eap-7.0
+	jboss.host.name = doslande-w7e3
+	jboss.modules.dir = C:\apps\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = host1:Server11
+	jboss.qualified.host.name = doslande-w7e3
+	jboss.server.base.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11
+	jboss.server.config.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\configuration
+	jboss.server.data.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\data
+	jboss.server.deploy.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\content
+	jboss.server.log.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\log
+	jboss.server.name = Server11
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\logging.properties
+	module.path = C:\apps\jboss-eap-7.0\modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\apps\jboss-eap-7.0\jboss-modules.jar -mp C:\apps\jboss-eap-7.0\modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	user.country = US
+	user.dir = C:\apps\jboss-eap-7.0
+	user.home = C:\Users\doslande
+	user.language = en
+	user.name = doslande
+	user.script = 
+	user.timezone = America/New_York
+	user.variant = 
+2017-05-28 12:40:38,578 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Server:Server11] -Xms1000m -Xmx1000m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.bind.address=0.0.0.0 -Djboss.bind.address.management=0.0.0.0 -Djboss.domain.base.dir=C:\work\my_eap\domainLab\host1\domain\ -Djboss.home.dir=C:\apps\jboss-eap-7.0 -Djboss.modules.system.pkgs=org.jboss.byteman -Djboss.server.log.dir=C:\work\my_eap\domainLab\host1\domain\servers\Server11\log -Djboss.server.temp.dir=C:\work\my_eap\domainLab\host1\domain\servers\Server11\tmp -Djboss.server.data.dir=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data -Dlogging.configuration=file:C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\logging.properties 
+2017-05-28 12:40:38,636 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.6.Final-redhat-1
+2017-05-28 12:40:38,643 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-05-28 12:40:38,845 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-05-28 12:40:41,069 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-05-28 12:40:41,082 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-05-28 12:40:41,092 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) WFLYCLJG0001: Activating JGroups subsystem.
+2017-05-28 12:40:41,096 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-05-28 12:40:41,102 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-05-28 12:40:41,133 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 66) WFLYWS0002: Activating WebServices Extension
+2017-05-28 12:40:41,175 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 43) WFLYIIOP0001: Activating IIOP Subsystem
+2017-05-28 12:40:41,208 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 61) WFLYSEC0002: Activating Security Subsystem
+2017-05-28 12:40:41,238 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 55) WFLYNAM0001: Activating Naming Subsystem
+2017-05-28 12:40:41,242 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 64) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-05-28 12:40:41,249 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-05-28 12:40:41,275 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2017-05-28 12:40:41,280 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-05-28 12:40:41,301 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-05-28 12:40:41,304 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-05-28 12:40:41,306 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-05-28 12:40:41,322 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-05-28 12:40:41,358 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0014: Creating file handler for path 'C:\apps\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-05-28 12:40:41,689 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-05-28 12:40:41,690 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-05-28 12:40:41,811 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2017-05-28 12:40:41,812 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2017-05-28 12:40:42,131 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "node-info.war" (runtime-name: "node-info.war")
+2017-05-28 12:40:42,133 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "example.war" (runtime-name: "example.war")
+2017-05-28 12:40:42,292 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow AJP listener ajp listening on 0.0.0.0:8009
+2017-05-28 12:40:42,298 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8180
+2017-05-28 12:40:42,528 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2017-05-28 12:40:42,549 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 68) MODCLUSTER000001: Initializing mod_cluster version 1.3.2.Final-redhat-1
+2017-05-28 12:40:42,650 INFO  [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000012: default-server connector will use /127.0.0.1
+2017-05-28 12:40:42,693 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-05-28 12:40:42,769 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-05-28 12:40:42,797 WARN  [org.jboss.metadata.parser.jbossweb.JBossWebMetaDataParser] (MSC service thread 1-8) <replication-mode/> is no longer supported and will be ignored
+2017-05-28 12:40:43,068 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment node-info.war
+2017-05-28 12:40:43,287 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-05-28 12:40:43,447 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0006: Starting Services for CDI deployment: node-info.war
+2017-05-28 12:40:43,477 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.3 (redhat)
+2017-05-28 12:40:43,499 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment node-info.war
+2017-05-28 12:40:46,348 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-05-28 12:40:46,681 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\journal,bindingsDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\bindings,largeMessagesDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\largemessages,pagingDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\paging)
+2017-05-28 12:40:46,728 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221013: Using NIO Journal
+2017-05-28 12:40:46,884 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000078: Starting JGroups channel ejb
+2017-05-28 12:40:46,904 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000094: Received new cluster view for channel ejb: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:40:46,910 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000079: Channel ejb local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:40:46,920 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-05-28 12:40:46,937 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-8) ISPN000078: Starting JGroups channel web
+2017-05-28 12:40:46,938 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-8) ISPN000094: Received new cluster view for channel web: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:40:46,939 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-8) ISPN000079: Channel web local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:40:46,929 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000078: Starting JGroups channel server
+2017-05-28 12:40:46,945 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000078: Starting JGroups channel hibernate
+2017-05-28 12:40:46,945 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000094: Received new cluster view for channel server: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:40:46,945 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000094: Received new cluster view for channel hibernate: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:40:46,946 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000079: Channel hibernate local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:40:46,969 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000079: Channel server local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:40:46,983 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:40:46,985 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:40:46,988 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:40:46,991 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:40:46,998 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:40:47,000 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:40:47,014 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-05-28 12:40:47,019 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-05-28 12:40:47,257 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started routing cache from web container
+2017-05-28 12:40:47,269 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started node-info.war cache from web container
+2017-05-28 12:40:47,327 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-05-28 12:40:47,325 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-05-28 12:40:47,328 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-05-28 12:40:47,329 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-05-28 12:40:47,420 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221007: Server is now live
+2017-05-28 12:40:47,420 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=eaf560cb-4300-11e7-bda6-a720fa82545c] 
+2017-05-28 12:40:47,434 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 68) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-05-28 12:40:47,452 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-05-28 12:40:47,494 INFO  [org.apache.activemq.artemis.jms.server] (ServerService Thread Pool -- 69) AMQ121005: Invalid "host" value "0.0.0.0" detected for "http-connector" connector. Switching to "DOSLANDE-W7E3". If this new address is incorrect please manually configure the connector to use the proper one.
+2017-05-28 12:40:47,494 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-05-28 12:40:47,504 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-05-28 12:40:47,538 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-05-28 12:40:47,615 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-2) Resource adaptor started
+2017-05-28 12:40:47,616 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-05-28 12:40:47,619 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-05-28 12:40:47,619 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-05-28 12:40:47,785 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: /example
+2017-05-28 12:40:48,661 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: /node-info
+2017-05-28 12:40:48,692 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "example.war" (runtime-name : "example.war")
+2017-05-28 12:40:48,693 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "node-info.war" (runtime-name : "node-info.war")
+2017-05-28 12:40:49,008 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 11043ms - Started 553 of 836 services (469 services are lazy, passive or on-demand)
+2017-05-28 12:42:01,819 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-20,ee,host1:Server11) ISPN000094: Received new cluster view for channel server: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:42:01,820 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-20,ee,host1:Server11) ISPN000094: Received new cluster view for channel web: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:42:01,822 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-20,ee,host1:Server11) ISPN000094: Received new cluster view for channel ejb: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:42:01,825 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-20,ee,host1:Server11) ISPN000094: Received new cluster view for channel hibernate: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:42:02,796 ERROR [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000042: Error MEM sending STATUS command to 127.0.0.1/127.0.0.1:6666, configuration will be reset: MEM: Can't read node with "undertow-instance-id-1" JVMRoute
+2017-05-28 12:42:02,813 INFO  [org.infinispan.CLUSTER] (remote-thread--p14-t2) ISPN000310: Starting cluster-wide rebalance for cache node-info.war, topology CacheTopology{id=1, rebalanceId=1, currentCH=DefaultConsistentHash{ns=80, owners = (1)[host1:Server11: 80+0]}, pendingCH=DefaultConsistentHash{ns=80, owners = (2)[host1:Server11: 40+40, host2:Server21: 40+40]}, unionCH=null, actualMembers=[host1:Server11, host2:Server21]}
+2017-05-28 12:42:02,819 INFO  [org.infinispan.CLUSTER] (remote-thread--p14-t1) ISPN000310: Starting cluster-wide rebalance for cache routing, topology CacheTopology{id=1, rebalanceId=1, currentCH=DefaultConsistentHash{ns=80, owners = (1)[host1:Server11: 80+0]}, pendingCH=DefaultConsistentHash{ns=80, owners = (2)[host1:Server11: 40+40, host2:Server21: 40+40]}, unionCH=null, actualMembers=[host1:Server11, host2:Server21]}
+2017-05-28 12:42:03,046 WARN  [org.apache.activemq.artemis.core.server] (Thread-6 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@7dc9268f-1484843086)) AMQ222186: unable to authorise cluster control
+2017-05-28 12:42:03,047 WARN  [org.apache.activemq.artemis.core.server] (Thread-4 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@7dc9268f-1484843086)) AMQ222186: unable to authorise cluster control
+2017-05-28 12:42:03,075 INFO  [org.infinispan.CLUSTER] (remote-thread--p14-t2) ISPN000336: Finished cluster-wide rebalance for cache node-info.war, topology id = 1
+2017-05-28 12:42:03,108 ERROR [org.apache.activemq.artemis.core.server] (Thread-2 (ActiveMQ-client-netty-threads-2028680605)) AMQ224058: Stopping ClusterManager. As it failed to authenticate with the cluster: AMQ119099: Unable to authenticate cluster user: ACTIVEMQ.CLUSTER.ADMIN.USER
+2017-05-28 12:42:03,159 INFO  [org.apache.activemq.artemis.core.server] (Thread-6 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@7dc9268f-1484843086)) AMQ221029: stopped bridge sf.my-cluster.93e65230-4302-11e7-bf2f-bd9d45aefbf0
+2017-05-28 12:42:03,160 WARN  [org.apache.activemq.artemis.core.server] (Thread-4 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@7dc9268f-1484843086)) AMQ222186: unable to authorise cluster control
+2017-05-28 12:42:03,160 INFO  [org.infinispan.CLUSTER] (remote-thread--p14-t2) ISPN000336: Finished cluster-wide rebalance for cache routing, topology id = 1
+2017-05-28 12:42:12,822 ERROR [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000042: Error MEM sending CONFIG command to 127.0.0.1/127.0.0.1:6666, configuration will be reset: MEM: Old node with "REMOVED" JVMRoute still exists
+2017-05-28 12:42:32,854 ERROR [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000042: Error MEM sending STATUS command to 127.0.0.1/127.0.0.1:6666, configuration will be reset: MEM: Can't read node with "undertow-instance-id-1" JVMRoute
+2017-05-28 12:42:42,860 ERROR [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000042: Error MEM sending CONFIG command to 127.0.0.1/127.0.0.1:6666, configuration will be reset: MEM: Old node with "REMOVED" JVMRoute still exists
+2017-05-28 12:43:01,857 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p13-t2) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:43:01,873 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p16-t6) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:43:01,873 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p11-t2) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:43:01,876 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p12-t2) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:43:02,897 ERROR [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000042: Error MEM sending STATUS command to 127.0.0.1/127.0.0.1:6666, configuration will be reset: MEM: Can't read node with "undertow-instance-id-1" JVMRoute
+2017-05-28 12:43:12,903 ERROR [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000042: Error MEM sending CONFIG command to 127.0.0.1/127.0.0.1:6666, configuration will be reset: MEM: Old node with "REMOVED" JVMRoute still exists
+2017-05-28 12:43:27,909 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2017-05-28 12:43:27,931 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 74) MODCLUSTER000021: All pending requests drained from default-host:/node-info in 0.0 seconds
+2017-05-28 12:43:27,934 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0022: Unregistered web context: /node-info
+2017-05-28 12:43:27,952 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000080: Disconnecting JGroups channel server
+2017-05-28 12:43:27,953 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000082: Stopping the RpcDispatcher for channel server
+2017-05-28 12:43:27,967 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 74) MODCLUSTER000021: All pending requests drained from default-host:/example in 0.0 seconds
+2017-05-28 12:43:27,971 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0022: Unregistered web context: /example
+2017-05-28 12:43:27,995 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000080: Disconnecting JGroups channel hibernate
+2017-05-28 12:43:27,996 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000082: Stopping the RpcDispatcher for channel hibernate
+2017-05-28 12:43:28,010 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000080: Disconnecting JGroups channel ejb
+2017-05-28 12:43:28,011 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000082: Stopping the RpcDispatcher for channel ejb
+2017-05-28 12:43:28,020 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 77) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2017-05-28 12:43:28,034 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2017-05-28 12:43:28,040 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment node-info.war
+2017-05-28 12:43:28,032 INFO  [org.infinispan.eviction.impl.PassivationManagerImpl] (ServerService Thread Pool -- 83) ISPN000029: Passivating all entries to disk
+2017-05-28 12:43:28,044 INFO  [org.infinispan.eviction.impl.PassivationManagerImpl] (ServerService Thread Pool -- 83) ISPN000030: Passivated 0 entries in 11 milliseconds
+2017-05-28 12:43:28,081 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped routing cache from web container
+2017-05-28 12:43:28,087 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 83) WFLYCLINF0003: Stopped node-info.war cache from web container
+2017-05-28 12:43:28,110 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 81) MODCLUSTER000002: Initiating mod_cluster shutdown
+2017-05-28 12:43:28,116 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000080: Disconnecting JGroups channel web
+2017-05-28 12:43:28,116 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000082: Stopping the RpcDispatcher for channel web
+2017-05-28 12:43:28,145 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-05-28 12:43:28,145 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-05-28 12:43:28,150 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2017-05-28 12:43:28,153 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment example.war (runtime-name: example.war) in 194ms
+2017-05-28 12:43:28,160 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-05-28 12:43:28,168 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow AJP listener ajp suspending
+2017-05-28 12:43:28,171 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow AJP listener ajp stopped, was bound to 0.0.0.0:8009
+2017-05-28 12:43:28,181 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment node-info.war (runtime-name: node-info.war) in 221ms
+2017-05-28 12:43:28,187 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 74) AMQ151003: resource adaptor stopped
+2017-05-28 12:43:28,229 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 74) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [eaf560cb-4300-11e7-bda6-a720fa82545c] stopped
+2017-05-28 12:43:28,230 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2017-05-28 12:43:28,231 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2017-05-28 12:43:28,231 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.3.21.Final-redhat-1 stopping
+2017-05-28 12:43:28,298 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) stopped in 337ms
+2017-05-28 12:45:15,717 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-05-28 12:45:15,887 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-05-28 12:45:15,968 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-05-28 12:45:15,973 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	[Server:Server11] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\apps\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_131\jre
+	java.io.tmpdir = C:\Users\doslande\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Gow\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\apps\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.domain.base.dir = C:\work\my_eap\domainLab\host1\domain
+	jboss.domain.config.dir = C:\work\my_eap\domainLab\host1\domain\configuration
+	jboss.home.dir = C:\apps\jboss-eap-7.0
+	jboss.host.name = doslande-w7e3
+	jboss.modules.dir = C:\apps\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = host1:Server11
+	jboss.qualified.host.name = doslande-w7e3
+	jboss.server.base.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11
+	jboss.server.config.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\configuration
+	jboss.server.data.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\data
+	jboss.server.deploy.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\content
+	jboss.server.log.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\log
+	jboss.server.name = Server11
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\work\my_eap\domainLab\host1\domain\servers\Server11\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\logging.properties
+	module.path = C:\apps\jboss-eap-7.0\modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\apps\jboss-eap-7.0\jboss-modules.jar -mp C:\apps\jboss-eap-7.0\modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	user.country = US
+	user.dir = C:\apps\jboss-eap-7.0
+	user.home = C:\Users\doslande
+	user.language = en
+	user.name = doslande
+	user.script = 
+	user.timezone = America/New_York
+	user.variant = 
+2017-05-28 12:45:15,974 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -D[Server:Server11] -Xms1000m -Xmx1000m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.bind.address=0.0.0.0 -Djboss.bind.address.management=0.0.0.0 -Djboss.domain.base.dir=C:\work\my_eap\domainLab\host1\domain\ -Djboss.home.dir=C:\apps\jboss-eap-7.0 -Djboss.modules.system.pkgs=org.jboss.byteman -Djboss.server.log.dir=C:\work\my_eap\domainLab\host1\domain\servers\Server11\log -Djboss.server.temp.dir=C:\work\my_eap\domainLab\host1\domain\servers\Server11\tmp -Djboss.server.data.dir=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data -Dlogging.configuration=file:C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\logging.properties 
+2017-05-28 12:45:16,028 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.6.Final-redhat-1
+2017-05-28 12:45:16,036 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-05-28 12:45:16,237 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-05-28 12:45:18,376 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-05-28 12:45:18,397 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 43) WFLYIIOP0001: Activating IIOP Subsystem
+2017-05-28 12:45:18,403 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-05-28 12:45:18,409 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 64) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-05-28 12:45:18,413 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 55) WFLYNAM0001: Activating Naming Subsystem
+2017-05-28 12:45:18,417 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 66) WFLYWS0002: Activating WebServices Extension
+2017-05-28 12:45:18,426 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 61) WFLYSEC0002: Activating Security Subsystem
+2017-05-28 12:45:18,451 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) WFLYCLJG0001: Activating JGroups subsystem.
+2017-05-28 12:45:18,456 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-05-28 12:45:18,460 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-05-28 12:45:18,487 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-05-28 12:45:18,490 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-05-28 12:45:18,517 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-05-28 12:45:18,561 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2017-05-28 12:45:18,562 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-05-28 12:45:18,582 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0014: Creating file handler for path 'C:\apps\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-05-28 12:45:18,606 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-05-28 12:45:18,644 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-05-28 12:45:18,927 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-05-28 12:45:18,927 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-05-28 12:45:18,972 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2017-05-28 12:45:18,975 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2017-05-28 12:45:19,311 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "example.war" (runtime-name: "example.war")
+2017-05-28 12:45:19,314 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "node-info.war" (runtime-name: "node-info.war")
+2017-05-28 12:45:19,470 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow AJP listener ajp listening on 0.0.0.0:8009
+2017-05-28 12:45:19,477 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8180
+2017-05-28 12:45:19,533 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 68) MODCLUSTER000001: Initializing mod_cluster version 1.3.2.Final-redhat-1
+2017-05-28 12:45:19,585 INFO  [org.jboss.modcluster] (UndertowEventHandlerAdapter - 1) MODCLUSTER000012: default-server connector will use /127.0.0.1
+2017-05-28 12:45:19,701 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-05-28 12:45:19,721 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2017-05-28 12:45:19,754 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-05-28 12:45:19,760 WARN  [org.jboss.metadata.parser.jbossweb.JBossWebMetaDataParser] (MSC service thread 1-4) <replication-mode/> is no longer supported and will be ignored
+2017-05-28 12:45:20,085 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment node-info.war
+2017-05-28 12:45:20,188 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-05-28 12:45:20,382 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0006: Starting Services for CDI deployment: node-info.war
+2017-05-28 12:45:20,418 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.3.3 (redhat)
+2017-05-28 12:45:20,444 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment node-info.war
+2017-05-28 12:45:23,806 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-05-28 12:45:24,067 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\journal,bindingsDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\bindings,largeMessagesDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\largemessages,pagingDirectory=C:\work\my_eap\domainLab\host1\domain\servers\Server11\data\activemq\paging)
+2017-05-28 12:45:24,146 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221013: Using NIO Journal
+2017-05-28 12:45:24,347 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000078: Starting JGroups channel web
+2017-05-28 12:45:24,349 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000078: Starting JGroups channel hibernate
+2017-05-28 12:45:24,350 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000078: Starting JGroups channel ejb
+2017-05-28 12:45:24,353 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000078: Starting JGroups channel server
+2017-05-28 12:45:24,362 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-05-28 12:45:24,370 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-05-28 12:45:24,375 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000094: Received new cluster view for channel server: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:45:24,377 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000094: Received new cluster view for channel web: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:45:24,379 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000094: Received new cluster view for channel ejb: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:45:24,380 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000094: Received new cluster view for channel hibernate: [host1:Server11|0] (1) [host1:Server11]
+2017-05-28 12:45:24,384 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000079: Channel web local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:45:24,384 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000079: Channel ejb local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:45:24,384 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000079: Channel server local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:45:24,384 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000079: Channel hibernate local address is host1:Server11, physical addresses are [127.0.0.1:55300]
+2017-05-28 12:45:24,400 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-05-28 12:45:24,417 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:45:24,418 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:45:24,422 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:45:24,423 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:45:24,428 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:45:24,429 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-28 12:45:24,628 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-05-28 12:45:24,627 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-05-28 12:45:24,628 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-05-28 12:45:24,630 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-05-28 12:45:24,670 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started routing cache from web container
+2017-05-28 12:45:24,670 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started node-info.war cache from web container
+2017-05-28 12:45:24,780 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221007: Server is now live
+2017-05-28 12:45:24,780 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=eaf560cb-4300-11e7-bda6-a720fa82545c] 
+2017-05-28 12:45:24,792 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 68) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-05-28 12:45:24,807 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-05-28 12:45:24,815 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-05-28 12:45:24,818 INFO  [org.apache.activemq.artemis.jms.server] (ServerService Thread Pool -- 69) AMQ121005: Invalid "host" value "0.0.0.0" detected for "http-connector" connector. Switching to "DOSLANDE-W7E3". If this new address is incorrect please manually configure the connector to use the proper one.
+2017-05-28 12:45:24,819 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-05-28 12:45:24,861 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-05-28 12:45:24,900 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) Resource adaptor started
+2017-05-28 12:45:24,900 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-05-28 12:45:24,902 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-05-28 12:45:24,903 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-05-28 12:45:25,066 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /example
+2017-05-28 12:45:25,440 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /node-info
+2017-05-28 12:45:25,478 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "example.war" (runtime-name : "example.war")
+2017-05-28 12:45:25,479 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "node-info.war" (runtime-name : "node-info.war")
+2017-05-28 12:45:25,632 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 10248ms - Started 553 of 836 services (469 services are lazy, passive or on-demand)
+2017-05-28 12:46:36,910 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-19,ee,host1:Server11) ISPN000094: Received new cluster view for channel server: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:46:36,912 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-19,ee,host1:Server11) ISPN000094: Received new cluster view for channel web: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:46:36,916 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-19,ee,host1:Server11) ISPN000094: Received new cluster view for channel hibernate: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:46:36,923 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (thread-19,ee,host1:Server11) ISPN000094: Received new cluster view for channel ejb: [host1:Server11|1] (2) [host1:Server11, host2:Server21]
+2017-05-28 12:46:37,873 INFO  [org.infinispan.CLUSTER] (remote-thread--p7-t2) ISPN000310: Starting cluster-wide rebalance for cache node-info.war, topology CacheTopology{id=1, rebalanceId=1, currentCH=DefaultConsistentHash{ns=80, owners = (1)[host1:Server11: 80+0]}, pendingCH=DefaultConsistentHash{ns=80, owners = (2)[host1:Server11: 40+40, host2:Server21: 40+40]}, unionCH=null, actualMembers=[host1:Server11, host2:Server21]}
+2017-05-28 12:46:37,872 INFO  [org.infinispan.CLUSTER] (remote-thread--p7-t1) ISPN000310: Starting cluster-wide rebalance for cache routing, topology CacheTopology{id=1, rebalanceId=1, currentCH=DefaultConsistentHash{ns=80, owners = (1)[host1:Server11: 80+0]}, pendingCH=DefaultConsistentHash{ns=80, owners = (2)[host1:Server11: 40+40, host2:Server21: 40+40]}, unionCH=null, actualMembers=[host1:Server11, host2:Server21]}
+2017-05-28 12:46:37,945 WARN  [org.apache.activemq.artemis.core.server] (Thread-29 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@4549b1ab-1544921156)) AMQ222186: unable to authorise cluster control
+2017-05-28 12:46:37,946 WARN  [org.apache.activemq.artemis.core.server] (Thread-4 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@4549b1ab-1544921156)) AMQ222186: unable to authorise cluster control
+2017-05-28 12:46:38,013 ERROR [org.apache.activemq.artemis.core.server] (Thread-2 (ActiveMQ-client-netty-threads-1977395991)) AMQ224058: Stopping ClusterManager. As it failed to authenticate with the cluster: AMQ119099: Unable to authenticate cluster user: ACTIVEMQ.CLUSTER.ADMIN.USER
+2017-05-28 12:46:38,027 WARN  [org.apache.activemq.artemis.core.server] (Thread-4 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@4549b1ab-1544921156)) AMQ222186: unable to authorise cluster control
+2017-05-28 12:46:38,069 INFO  [org.apache.activemq.artemis.core.server] (Thread-9 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$2@4549b1ab-1544921156)) AMQ221029: stopped bridge sf.my-cluster.93e65230-4302-11e7-bf2f-bd9d45aefbf0
+2017-05-28 12:46:38,116 INFO  [org.infinispan.CLUSTER] (remote-thread--p7-t1) ISPN000336: Finished cluster-wide rebalance for cache node-info.war, topology id = 1
+2017-05-28 12:46:38,138 INFO  [org.infinispan.CLUSTER] (remote-thread--p7-t1) ISPN000336: Finished cluster-wide rebalance for cache routing, topology id = 1
+2017-05-28 12:47:36,959 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p16-t2) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:47:37,016 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p12-t2) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:47:37,017 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p11-t2) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-28 12:47:37,017 WARN  [org.infinispan.topology.ClusterTopologyManagerImpl] (transport-thread--p13-t6) ISPN000197: Error updating cluster member list: org.infinispan.util.concurrent.TimeoutException: Replication timeout for host2:Server21
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.checkRsp(JGroupsTransport.java:765)
+	at org.infinispan.remoting.transport.jgroups.JGroupsTransport.lambda$invokeRemotelyAsync$174(JGroupsTransport.java:599)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:46)
+	at org.infinispan.remoting.transport.jgroups.SingleResponseFuture.call(SingleResponseFuture.java:17)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+

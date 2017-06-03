@@ -1,0 +1,9 @@
+2017-05-29 19:05:28,306 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-05-29 19:05:28,572 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+2017-05-29 19:05:32,038 INFO  [org.jboss.as.process.Server:Server21.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:Server21'
+2017-05-29 19:23:11,933 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0017: Shutting down process controller
+2017-05-29 19:23:11,933 INFO  [org.jboss.as.process.Host Controller.status] (Shutdown thread) WFLYPC0019: Stopping process 'Host Controller'
+2017-05-29 19:23:11,995 INFO  [org.jboss.as.process.Server:Server21.status] (ProcessController-threads - 4) WFLYPC0019: Stopping process 'Server:Server21'
+2017-05-29 19:23:12,931 INFO  [org.jboss.as.process.Server:Server21.status] (reaper for Server:Server21) WFLYPC0011: Process 'Server:Server21' finished with an exit status of 0
+2017-05-29 19:23:12,977 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 0
+2017-05-29 19:23:12,977 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0016: All processes finished; exiting
